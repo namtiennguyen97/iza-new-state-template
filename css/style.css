@@ -6,6 +6,7 @@ body {
   background: #fff;
   letter-spacing: 1px;
   font-family: 'Arimo', sans-serif;
+  height: 100%;
 }
 
 body a {
@@ -146,7 +147,7 @@ button#trigger-overlay {
 .one-img {
   /*background: url(../images/izanagi/018.jpg) no-repeat 0px 0px;*/
   background-image:
-          url('../loginForm/images/cloud1.png'),
+          url('../img/images/cloud1.png'),
           url('../images/izanagi/018.jpg');
   background-repeat: repeat-x;
   background-position:
@@ -162,7 +163,7 @@ button#trigger-overlay {
   /*background: url(../images/izanagi/da4dc0bab177e84a39f5f7feb82798e0_screen.jpg) no-repeat 0px 0px;*/
 
   background-image:
-          url('../loginForm/images/cloud2.png'),
+          url('../img/images/cloud2.png'),
           url('../images/izanagi/da4dc0bab177e84a39f5f7feb82798e0_screen.jpg');
   background-repeat: repeat-x;
   background-position:
@@ -178,7 +179,7 @@ button#trigger-overlay {
   /*background: url(../images/izanagi/screen4.jpg) no-repeat 0px 0px;*/
 
   background-image:
-          url('../loginForm/images/thunderSvg.gif'),
+          url('../img/images/thunderSvg.gif'),
           url('../images/izanagi/screen4.jpg');
   background-repeat: repeat-x;
   background-position:
@@ -194,7 +195,7 @@ button#trigger-overlay {
   /*background: url(../images/izanagi/14603708164143920.jpg) no-repeat 0px 0px;*/
 
   background-image:
-          url('../loginForm/images/handZombieSVG.png'),
+          url('../img/images/handZombieSVG.png'),
           url('../images/izanagi/mageHeal.jpg');
   background-repeat: repeat-x;
   background-position:
@@ -210,7 +211,7 @@ button#trigger-overlay {
   /*background: url(../images/izanagi/beg.jpg) no-repeat 0px 0px;*/
 
   background-image:
-          url('../loginForm/images/smoke.png'),
+          url('../img/images/smoke.png'),
           url('../images/izanagi/ss_art_014.jpg');
   background-repeat: repeat-x;
   background-position:
@@ -226,7 +227,7 @@ button#trigger-overlay {
   /*background: url(../images/izanagi/beg.jpg) no-repeat 0px 0px;*/
 
   background-image:
-          url('../loginForm/images/Shadow.png'),
+          url('../img/images/Shadow.png'),
           url('../images/izanagi/beg.jpg');
   background-repeat: repeat-x;
   background-position:

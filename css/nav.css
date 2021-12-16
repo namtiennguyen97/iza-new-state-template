@@ -38,6 +38,7 @@
 	font-size: 54px;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+	/*background: black;*/
 }
 
 .overlay ul {
