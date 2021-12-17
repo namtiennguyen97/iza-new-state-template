@@ -39,6 +39,7 @@
       <link href="//fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
       <link rel="stylesheet" href="css/customCss.css">
+      <link rel="stylesheet" href="css/classFlipTable.css">
    </head>
    <body>
       <div class="header-outs" id="home">
@@ -177,13 +178,69 @@
 
       <div class="parallax"></div>
 
-      <div class="a" style="height:500px;font-size:36px">
-         OK ABC
+      <div class="a classes-content" style="height:auto; color: white">
+         <form class="yc-form">
+            <input type="radio" id="r-monthly" name="yc-form-switch" value="monthly" onclick="flip()" checked />
+            <label for="r-monthly">Classes</label>
+            <input type="radio" id="r-yearly" name="yc-form-switch" value="yearly" onclick="flip()" />
+            <label for="r-yearly">Chi tiết</label>
+         </form>
+         <div class="table">
+            <div class="column column-1">
+               <div class="column-front">
+                  <h2>Assasin</h2>
+                  <!--            <p>$5.99/mo</p>-->
+                  <!--            <p>Single User</p>-->
+
+               </div>
+               <div class="column-back">
+                  <h2>Assasin</h2>
+                              <p>Cơ động</p>
+                              <p>Có khả năng solo 1v1 tốt nhất</p>
+               </div>
+            </div>
+            <div class="column column-2">
+               <div class="column-front">
+                  <h2>Mage</h2>
+                  <!--            <p>$5.99/mo</p>-->
+                  <!--            <p>Single User</p>-->
+               </div>
+               <div class="column-back">
+                  <h2>Mage</h2>
+                              <p>Lượng sát thương cao nhất</p>
+                              <p>Kém cơ động, phải phụ thuộc vào team</p>
+               </div>
+            </div>
+            <div class="column column-3">
+               <div class="column-front">
+                  <h2>Cleric</h2>
+                  <!--            <p>$5.99/mo</p>-->
+                  <!--            <p>Single User</p>-->
+               </div>
+               <div class="column-back">
+                  <h2>Cleric</h2>
+                              <p>Hỗ trợ tốt nhất game</p>
+                              <p>Quan trọng không thể thiếu</p>
+               </div>
+            </div>
+            <div class="column column-4">
+               <div class="column-front">
+                  <h2>Warrior</h2>
+                  <!--            <p>$5.99/mo</p>-->
+                  <!--            <p>Single User</p>-->
+               </div>
+               <div class="column-back">
+                  <h2>Warrior</h2>
+                              <p>Là một tanker</p>
+                              <p>Damage vừa phải, và có khả năng đỡ đòn cho đồng đội</p>
+               </div>
+            </div>
+         </div>
       </div>
 
       <div class="parallax2"></div>
 
-      <div class="a" style="height:500px;font-size:36px">
+      <div class="a" style="height:500px">
          OK ABC
       </div>
 
@@ -214,6 +271,7 @@
       <script src="js/uncover.js"></script>
       <script src="js/demo1.js"></script>
       <script src="js/weather.js"></script>
+      <script src="js/flipClassContent.js"></script>
       <!-- //For-Banner -->
       <!--nav menu-->
       <script src="js/classie.js"></script>
@@ -221,6 +279,7 @@
       <!-- //nav menu-->
       <!-- bootstrap working-->
       <script src="js/bootstrap.min.js"></script>
+
       <!-- // bootstrap working--> 
    </body>
 </html>

@@ -1,6 +1,7 @@
 .a{
     background-image: url("../img/images/pattern.png");
-
+    width: 100%;
+    height: auto;
 }
 
 .parallax {
@@ -31,3 +32,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*CUSTOM SCROLL BAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d5d5d5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*END OF CUSTOM SCROLL BAR*/
